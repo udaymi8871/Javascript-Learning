@@ -1,0 +1,10 @@
+<button id="clickBtn">Click Me</button>
+<p>You clicked <span id="count">0</span> times</p>
+
+<script>
+  let count = 0;
+  document.getElementById("clickBtn").addEventListener("click", () => {
+    count++;
+    document.getElementById("count").innerText = count;
+  });
+</script>

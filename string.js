@@ -36,7 +36,7 @@ console.log(sentence.indexOf("to"));
 
 //4. slice
 let msg = "Automation Testing";
-console.log(msg.slice(0, 10));
+console.log(msg.slice(5, 10));
 
 // 5 toLowerCase
 
@@ -98,8 +98,9 @@ console.log(line.repeat(10));
 
 // toString()
 
-let num1 = 123;
-console.log(num.toString());
+// let num1 = 123;
+// console.log(num.toString());
+
 
 
 

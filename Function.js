@@ -46,7 +46,7 @@ function greet() {
     console.log("This runs after 2 seconds");
   }, 2000);
 
-  //5. ✅ 5. Immediately Invoked Function Expression (IIFE)
+  //5. Immediately Invoked Function Expression (IIFE)
 
   (function () {
     console.log("I run immediately!");
@@ -147,3 +147,4 @@ function greet() {
   
 
 
+  
